@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+    <main class="mt-0 {{ config.classes.content }}">
+        <div class="container pt-6 pt-md-6 pt-lg-8 pb-8 pb-lg-10 position-relative">
+            <div class="row gx-10 align-items-center">
+                <div class="col-12 col-lg-12 position-relative z-index-20 text-justify text-lg-start" data-aos="fade-in">
+                    <h1 class="display-5 fw-bold mb-10 align-items-center">Instriq.io</h1>
+                    <h2 class="fs-5 text-muted fw-light lh-base">We are an offensive security R&D boutique. Developing effective offensive technology to support critical operations.</h2>
+                    <h3 class="fs-7 text-muted fw-light lh-base"
+                        >We provide a wide range of offensive security services tailored to the diversified needs of customers. We propose solutions based on a thorough attacker's perspective and a research-based thinking for the needs of identifying security risks and testing current measures.
+                    </h3>
+                    <br>    
+                    <div class="mt-6 pt-1 d-flex flex-column flex-md-row justify-content-center justify-content-lg-start">
+                        <a href="mailto:contact@instriq.io" class="btn btn-success" role="button">contact@instriq.io</a>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute top-0 end-0 start-0 bottom-0 z-index-0 d-none d-lg-block">
+                <div class="d-block f-w-6  position-absolute bottom-7 start-5 rotate-n45 origin-center">
+                    <span class="d-block animation-float-4">
+                        {{>svg/svg-shape-two
+                        }}
+                    </span>
+                </div>
+                <div class="d-block f-w-6  position-absolute bottom-35 start-n3">
+                    <span class="d-block animation-float-6">
+                        {{>svg/svg-shape-one
+                        }}
+                    </span>
+                </div>
+                <div class="d-block f-w-6  position-absolute bottom-20 start-n2">
+                    <span class="d-block animation-float">
+                        {{>svg/svg-shape-four
+                        }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    {{> footer/scripts }}
+</body>
+</html>

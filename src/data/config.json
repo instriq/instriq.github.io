@@ -1,0 +1,18 @@
+{
+    "defaultPageTitle": "Instriq.io - Offensive Security R&D boutique",
+    "templateName": "Sigma",
+    "classes": {
+        "body": "",
+        "navbar": "",
+        "content": "",
+        "footer": ""
+    },
+    "partials": {
+        "head": "head/head",
+        "navbar": "navbar/navbar-primary",
+        "footer": "footer/footer"
+    },
+    "defaultImgAlt": "Instriq.io",
+    "helpDocsURL": "",
+    "demoURL": ""
+}
